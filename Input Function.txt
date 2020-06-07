@@ -1,0 +1,32 @@
+Input function:
+    In our program we need to enter the input by the user, which can be done by this.
+{used to take the input from the user}
+
+In input function the user input will be taken everything as string. Even if you enter the digits it will treated as string format.
+
+>>> v1=input("enter the value:")
+enter the value:10
+>>> v1
+'10'
+
+In order to convert this string into another format we need to typecasted it.
+
+v1=int(input("enter the value:"))
+enter the value:10
+>>> v1
+10
+
+>>> name=input("enter the string:")
+enter the string:usha
+>>> print("Hi")
+Hi
+>>> print("welcome",name)
+welcome usha
+>>> x=int(input("enter the value x value:"))
+enter the value x value:1
+>>> y=int(input("enter the value y value:"))
+enter the value y value:2
+>>> z=int(input("enter the value z value:"))
+enter the value z value:5
+>>> print(max(x,y,z))
+5

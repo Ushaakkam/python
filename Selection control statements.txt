@@ -1,0 +1,39 @@
+var = int(input("enter the value:"))
+if var<=10:
+    print("value is lessthan 10")
+
+else:
+    print("value is greaterthan 10")
+
+----------------------------------------------------   
+
+
+marks = int(input("enter your marks:"))
+if marks>=45:
+     print(" congrats you passed in exam")
+else:
+     print(" better luck nexttime") 
+
+
+----------------------------------------------------    
+
+
+marks = int(input("enter your marks:"))
+if marks==100:
+     print(" perfect score")
+     print("thank you")
+
+----------------------------------------------------
+
+
+name="usha"
+clg="svew"
+marks=75
+if clg== "svew":
+   if name=="usha":
+    print("usha of svew got:" ,marks,"marks")
+
+
+    
+
+    

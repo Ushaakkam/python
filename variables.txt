@@ -1,0 +1,24 @@
+# varialbe is a container which is used to store the values that values can be integer, strings, float or different values.
+#This variable is not fixed one it varies from  one value to another value.
+Syntax 
+ varaiable name = Assigned value
+How can you declare a varaible in python:(Rules)	
+1. It will be a collection of alphabets,digits and specail characters(_ underscore).
+2. First letter should not be start with digits.
+example: 1var = 20( it's incorrect)
+3. But is should be start with underscore or alphabets, in the middle or end we can use digits
+example: var_1 = 2(it's true)
+         _var2 = 3(it's true)
+         var3  = 1(it's true)
+4. variable name is a case sensitive one(python is case sensitive i.e there is a difference b/w small and capital letters)
+example: var1 =2 
+         Var1 =2(both are not same, python treated as both are different variables.)
+5. If you have multiple words of varaible name, its follow camel format( first is small, second word onwards capital )
+ exapmle: myVariable =10
+          myVaraValue =1
+
+ 
+
+
+
+

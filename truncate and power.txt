@@ -1,0 +1,29 @@
+#normal divison it will not remove the digits after the decimal points
+v1=int(input(enter the value 1))
+v2=int(input(enter the value 1))
+print(v1v2)
+
+
+
+
+#truncating div it will eliminates the digits after decimal points
+v1=int(input(enter the value 1))
+v2=int(input(enter the value 1))
+print(v1v2)
+
+#Exponential by using 
+
+v1=int(input(enter the value 1))
+v2=int(input(enter the value 1))
+print(v1v2)
+
+#Exponential by using power function
+v1=int(input(enter the value 1))
+v2=int(input(enter the value 1))
+ print(pow(v1,v2)
+
+
+
+input(please press enter if you want to exit from the screen)
+
+

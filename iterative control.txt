@@ -1,0 +1,22 @@
+'''  syntax:   for  varaiable    membership operator  sequence
+here  in place of varaible we can give variable name which you want, and membership opt is (in, not )
+sequence we can use here as list or strings '''
+----------------------------------------------
+ for loop:
+for letter in "python":
+     print("each character is",letter)
+----------------------------------------------
+ while loop:
+for letter in [10,20,30,40]:
+    if letter>=25:
+        print(letter,'greater than 25')
+
+    else:
+        print(letter,'lessthan 25')
+---------------------------------------------
+# while loop 
+count=1
+while count<=5:
+    print(count)
+    count=count+1
+     

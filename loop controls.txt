@@ -1,0 +1,38 @@
+# break statementnin while
+ count =0
+while count<=5:
+    if count==3:
+        break;
+    else:
+        print(count)
+
+        count=count+1   
+------------------------------
+#break statement in for
+for letter in "usha":
+    if letter=="h":
+        break;
+    else:
+        print(letter)
+
+-----------------------------------
+#continue statement in while
+var=0
+while var<=5:
+    var=var+1
+    if var==3:
+        continue
+    print(var)
+--------------------------------------
+#continue statement in for
+
+for  letter  in "aswini":
+    if letter=="i":
+            continue
+    else:
+            print(letter)
+
+
+
+
+

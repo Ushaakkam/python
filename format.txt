@@ -1,0 +1,48 @@
+Format: It will alter the format of numbers and strings.
+ Synatx: format(values, specification)  specification mention with dot and single quote or double quote
+                  |            | 
+               which one     how much 
+               you want      we want 
+               to make       to modify 
+               changes        it
+eg: 8/9
+o/p:o.88888 (now i want to change this o/p values , after decimal only needs
+ to print two values.
+>>> format(8/9,".2f")
+o/p:'0.88'
+
+In case of strings format is used for justification
+ they are 1)left justification
+          2)Right justification
+          3)center justification
+
+
+
+
+
+value= int(input("enter the value:"))
+	   
+enter the value:8
+
+>>> value1 = int(input("enter the value:"))
+
+enter the value:9
+>>> value
+8
+>>> value1
+9
+>>> print(value/value1)
+0.8888888888888888
+
+>>> format(value/value1,".2f")
+'0.89'
+
+>>> format("hello","40")   // left 
+'hello                                   '
+ 
+>>> 
+>>> format("hello",">30")   //right
+'                         hello'
+>>> format("hello","^30")   //center
+'            hello             '
+>>> 

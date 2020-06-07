@@ -1,0 +1,24 @@
+Function: Nothing but there are stmts which grouped together to do a particular task.
+or it is a piece of code executed by certain logic
+
+-> There are built in functions are there, to know the all built in functions we used one command
+   "  dir(__builtins__)  "
+-> To know the  functionality of built in function we use  one command
+    "  help(builtin function name)
+   eg: help(max)
+
+Modules:
+
+     modules contains extra functionalities which can use whenever we want by includes them.
+>For include that modules 
+ import math (here math is a modules to use that module first we need to import it)
+ math.functions (here we can call any function)
+eg: math.sqrt
+    math.sqrt(9)
+o/p:3.0
+Note : You can replace the built in function names in modules by the help of varaible name
+   squareRoot = math.sqrt
+   squareRoot(9)
+O/P:3.0
+
+

@@ -1,0 +1,17 @@
+print is the output function, it is one of the inbuilt function. in order to print something as a output we use this one.
+syntax:print("arg1","arg2"...."argn")
+inside the arguments it will accept string,integers or expressions;
+
+print("10+12 =",10+12)
+10+12 = 22
+>>> >>> x=10
+>>> y=20
+>>> print("10*20 =",x*y)
+10*20 = 200
+
+
+
+If we want to print something in c format 
+
+name="usha"
+print("hello %s",%name)
